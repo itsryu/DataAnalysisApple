@@ -1,3 +1,6 @@
+# py -m src.scripts.per_data
+# py .\src\scripts\per_data.py
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import sys

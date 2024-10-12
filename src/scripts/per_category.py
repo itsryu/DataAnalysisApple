@@ -1,3 +1,6 @@
+# py -m src.scripts.per_category
+# py .\src\scripts\per_category.py
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import sys
@@ -25,7 +28,7 @@ fig, axs = plt.subplots(2, 1, figsize=(10, 10))
 
 # Pie chart
 axs[0].pie(sizes, labels=labels, colors=colors, autopct=lambda pct: func(pct, sizes), startangle=140)
-axs[0].set_title('Distribuição por Categorias e Total', fontsize=10)
+axs[0].set_title('Candidatos por Categorias', fontsize=10)
 axs[0].axis('equal')
 axs[0].text(0, -1.2, f'Total de Inscritos: {total}', ha='center', fontsize=10)
 
@@ -38,5 +41,5 @@ axs[1].set_xticklabels(count.index, rotation=0)
 axs[1].grid(axis='y')
 
 plt.tight_layout()
-plt.savefig('outputs/distribuicao_por_categoria.png', format='png', dpi=300, bbox_inches='tight')
+plt.savefig('outputs/candidatos_por_categoria.png', format='png', dpi=300, bbox_inches='tight')
 plt.show()

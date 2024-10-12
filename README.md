@@ -14,9 +14,8 @@
             </p>
         </div>
         <div>
-            <h2>Tecnologias Utilizadas</h2>
+            <h2>Bibliotecas Utilizadas</h2>
             <ul>
-                <li>python</li>
                 <li>pandas</li>
                 <li>matplotlib</li>
                 <li>pdfplumber</li>
@@ -46,31 +45,31 @@
                 <li>
                     <strong>Análise e Visualização:</strong>
                     <ul>
-                        <li>Execute o script Python dentro do venv (virtual enviroment) para realizar a análise e gerar os gráficos.</li>
+                        <li>Execute o script Python dentro do venv (virtual enviroment) para gerar um arquivo .csv 
+                        com os dados necessários para a análise.</li>
                         <br>
                         <pre><code>.\.venv\Scripts\activate</code></pre>
                         <pre><code>py .\src\main.py</code></pre>
-                        <li>O gráfico de pizza mostra a distribuição das categorias e o total de registros.</li>
-                        <li>O gráfico de barras apresenta a quantidade de inscritos por categoria (Desenvolvedores e
-                            Designers).</li>
+                        <li>Execute os scripts da pasta ./scripts para gerar os outputs (gráficos) na pasta ./outputs</li>
+                        <pre><code>py .\src\scripts\histogram.py</code></pre>
+                        <pre><code>py .\src\scripts\per_category.py</code></pre>
+                        <pre><code>py .\src\scripts\per_laboratory.py</code></pre>
+                        <pre><code>py .\src\scripts\per_data.py</code></pre>
+                        <pre><code>py .\src\scripts\vacancies_by_category.py</code></pre>
                     </ul>
                 </li>
             </ol>
             <h2>Gráficos Gerados</h2>
-            <h3>Gráfico de Pizza</h3>
-            <p>O gráfico de pizza exibe a distribuição de categorias e o total de registros. Ele mostra a quantidade e a
-                porcentagem de:</p>
-            <ul>
-                <li>Total de Desenvolvedores</li>
-                <li>Total de Designers</li>
-            </ul>
-            <h3>Gráfico de Barras</h3>
-            <p>O gráfico de barras mostra a quantidade de inscritos por categoria. Os rótulos das categorias estão
-                dispostos horizontalmente para melhor legibilidade.</p>
-            <h3>Exemplo de Gráficos</h3>
             <p>Os gráficos abaixo são exemplos de como os dados podem ser visualizados.</p>
+            <h3>Inscritos por Categoria</h3>
+            <p>Este gráfico mostra a distribuição dos candidatos por categorias e o total de candidatos</p>
             <div style="text-align: center;">
-                <img src="output.png" alt="Gráficos" width="600" />
+                <img src="./outputs/candidatos_por_categoria.png" alt="Gráficos" width="600" />
+            </div>
+            <h3>Vagas por Categoria</h3>
+            <p>Este gráfico mostra a relação entre a quantidade de candidatos e as vagas disponíveis para cada categoria</p>
+            <div style="text-align: center;">
+                <img src="./outputs/vagas_por_categoria.png" alt="Gráficos" width="600" />
             </div>
         </div>
     </div>

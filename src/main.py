@@ -9,7 +9,7 @@ def main():
         data = extract_data_from_pdf(path)
         data = [fix_data(row) for row in data]
         
-        # Exporting data to csv file
+        # exporting data to csv file
         df = pd.DataFrame(data[1:], columns=data[0][:6])
         output_path = Path('data/data.csv')
         output_path.parent.mkdir(parents=True, exist_ok=True)

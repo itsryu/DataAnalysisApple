@@ -1,3 +1,6 @@
+# py -m src.scripts.histogram
+# py .\src\scripts\histogram.py
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import sys

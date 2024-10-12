@@ -1,5 +1,4 @@
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,visualstudio,python
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,visualstudio,python
+### Workspace ###
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
@@ -584,5 +583,3 @@ FodyWeavers.xsd
 
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
-
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,visualstudio,python
