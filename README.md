@@ -67,7 +67,8 @@
                 <img src="./outputs/candidatos_por_categoria.png" alt="Gráficos" width="600" />
             </div>
             <h3>Vagas por Categoria</h3>
-            <p>Este gráfico mostra a relação entre a quantidade de candidatos e as vagas disponíveis para cada categoria</p>
+            <p>Este gráfico mostra a relação entre a quantidade de candidatos e as vagas disponíveis para cada categoria, assim
+            elucidando a proporcionalidade entre candidatos-vaga para cada categoria</p>
             <div style="text-align: center;">
                 <img src="./outputs/vagas_por_categoria.png" alt="Gráficos" width="600" />
             </div>
