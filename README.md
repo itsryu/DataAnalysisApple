@@ -63,13 +63,13 @@
             <p>Os gráficos abaixo são exemplos de como os dados podem ser visualizados.</p>
             <h3>Inscritos por Categoria</h3>
             <p>Este gráfico mostra a distribuição dos candidatos por categorias e o total de candidatos</p>
-            <div style="text-align: center;">
+             <div align="center" style="display: inline_block">
                 <img src="./outputs/candidatos_por_categoria.png" alt="Gráficos" width="600" />
             </div>
             <h3>Vagas por Categoria</h3>
             <p>Este gráfico mostra a relação entre a quantidade de candidatos e as vagas disponíveis para cada categoria, assim
             elucidando a proporcionalidade entre candidatos-vaga para cada categoria</p>
-            <div style="text-align: center;">
+             <div align="center" style="display: inline_block">
                 <img src="./outputs/vagas_por_categoria.png" alt="Gráficos" width="600" />
             </div>
         </div>
