@@ -7,7 +7,7 @@
             <h1>Análise de Dados de Inscritos</h1>
             <p>
             Este projeto tem como objetivo realizar uma análise de dados de inscritos para a prova
-            da Apple Academy que ocorrera entre os dias 16 a 18 de outubro de 2024, extraindo 
+            da Apple Academy que ocorrera entre os dias 17 e 18 de outubro de 2024, extraindo 
             informações de um arquivo PDF e gerando gráficos para visualização dos dados. Os dados 
             extraídos incluem matrícula, categoria (desenvolvedor ou designer), laboratório, data, 
             dia da semana e horário da prova.
@@ -30,9 +30,9 @@
                 <a href="https://www.python.org/downloads/" target="_blank">python.org</a>
             </blockquote>
             <br>
-            <pre><code>py -m venv .venv</code></pre>
+            <pre><code>python -m venv .venv</code></pre>
             <pre><code>.\.venv\Scripts\activate</code></pre>
-            <pre><code>py -m pip install -r requirements.txt</code></pre>
+            <pre><code>python -m pip install -r requirements.txt</code></pre>
             <h2>Uso</h2>
             <ol>
                 <li>
@@ -49,13 +49,13 @@
                         com os dados necessários para a análise.</li>
                         <br>
                         <pre><code>.\.venv\Scripts\activate</code></pre>
-                        <pre><code>py .\src\main.py</code></pre>
-                        <li>Execute os scripts da pasta ./scripts para gerar os outputs (gráficos) na pasta ./outputs</li>
-                        <pre><code>py .\src\scripts\histogram.py</code></pre>
-                        <pre><code>py .\src\scripts\per_category.py</code></pre>
-                        <pre><code>py .\src\scripts\per_laboratory.py</code></pre>
-                        <pre><code>py .\src\scripts\per_data.py</code></pre>
-                        <pre><code>py .\src\scripts\vacancies_by_category.py</code></pre>
+                        <pre><code>python .\src\main.py</code></pre>
+                        <li>Execute os scripts da pasta <code>./scripts</code> para gerar os outputs (gráficos) na pasta <code>./outputs</code></li>
+                        <pre><code>python .\src\scripts\histogram.py</code></pre>
+                        <pre><code>python .\src\scripts\per_category.py</code></pre>
+                        <pre><code>python .\src\scripts\per_laboratory.py</code></pre>
+                        <pre><code>python .\src\scripts\per_data.py</code></pre>
+                        <pre><code>python .\src\scripts\vacancies_by_category.py</code></pre>
                     </ul>
                 </li>
             </ol>
@@ -64,13 +64,13 @@
             <h3>Inscritos por Categoria</h3>
             <p>Este gráfico mostra a distribuição dos candidatos por categorias e o total de candidatos</p>
              <div align="center" style="display: inline_block">
-                <img src="./outputs/candidatos_por_categoria.png" alt="Gráficos" width="600" />
+                <img src="./images/candidatos_por_categoria.png" alt="Gráficos" width="600" />
             </div>
             <h3>Vagas por Categoria</h3>
             <p>Este gráfico mostra a relação entre a quantidade de candidatos e as vagas disponíveis para cada categoria, assim
             elucidando a proporcionalidade entre candidatos-vaga para cada categoria</p>
              <div align="center" style="display: inline_block">
-                <img src="./outputs/vagas_por_categoria.png" alt="Gráficos" width="600" />
+                <img src="./images/vagas_por_categoria.png" alt="Gráficos" width="600" />
             </div>
         </div>
     </div>

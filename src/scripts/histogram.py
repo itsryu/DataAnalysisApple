@@ -9,7 +9,6 @@ sys.path.append(str(Path(__file__).resolve().parents[2] / 'src'))
 from utils.util import random_hex_color
 
 df = pd.read_csv('data/data.csv')
-
 df['HORÁRIO_INICIO'] = pd.to_datetime(df['HORÁRIO'].str.split(' - ').str[0], format='%H:%M').dt.hour
 
 plt.figure(figsize=(12, 6), dpi=80)
