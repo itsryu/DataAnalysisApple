@@ -1,4 +1,8 @@
 ### Workspace ###
+data/*
+!data/.gitkeep
+output/*
+!output/.gitkeep
 
 ### Python ###
 # Byte-compiled / optimized / DLL files

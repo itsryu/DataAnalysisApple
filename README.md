@@ -29,9 +29,22 @@
                 Recomendo a versão <strong>3.11</strong>, que pode ser encontrada no site oficial:
                 <a href="https://www.python.org/downloads/" target="_blank">python.org</a>
             </blockquote>
+            Criando um ambiente virtual:
+            <br>
             <br>
             <pre><code>python -m venv .venv</code></pre>
-            <pre><code>.\.venv\Scripts\activate</code></pre>
+            <br>
+            Ativando o ambiente virtual:
+            <br>
+            <br>
+            <blockquote>Windows:</blockquote>
+            <pre><code>.venv/Scripts/activate</code></pre>
+            <blockquote>Linux:</blockquote>
+            <pre><code>.venv/bin/activate</code></pre>
+            <br>
+            Instalando as dependências:
+            <br>
+            <br>
             <pre><code>python -m pip install -r requirements.txt</code></pre>
             <h2>Uso</h2>
             <ol>
@@ -48,19 +61,19 @@
                         <li>Execute o script Python dentro do venv (virtual enviroment) para gerar um arquivo .csv 
                         com os dados necessários para a análise.</li>
                         <br>
-                        <pre><code>.\.venv\Scripts\activate</code></pre>
-                        <pre><code>python .\src\main.py</code></pre>
+                        <pre><code>python src/main.py</code></pre>
                         <li>Execute os scripts da pasta <code>./scripts</code> para gerar os outputs (gráficos) na pasta <code>./outputs</code></li>
-                        <pre><code>python .\src\scripts\histogram.py</code></pre>
-                        <pre><code>python .\src\scripts\per_category.py</code></pre>
-                        <pre><code>python .\src\scripts\per_laboratory.py</code></pre>
-                        <pre><code>python .\src\scripts\per_data.py</code></pre>
-                        <pre><code>python .\src\scripts\vacancies_by_category.py</code></pre>
+                        <pre><code>python src/scripts/histogram.py</code></pre>
+                        <pre><code>python src/scripts/per_category.py</code></pre>
+                        <pre><code>python src/scripts/per_laboratory.py</code></pre>
+                        <pre><code>python src/scripts/per_data.py</code></pre>
+                        <pre><code>python src/scripts/vacancies_by_category.py</code></pre>
+                        <pre><code>python src/scripts/freshmen_vs_veterans.py</code></pre>
                     </ul>
                 </li>
             </ol>
-            <h2>Gráficos Gerados</h2>
-            <p>Os gráficos abaixo são exemplos de como os dados podem ser visualizados.</p>
+            <h2>Exemplo de gráficos gerados</h2>
+            <p>Os gráficos abaixo são exemplos de como os dados podem ser visualizados (nem todos os gráficos são exibidos)</p>
             <h3>Inscritos por Categoria</h3>
             <p>Este gráfico mostra a distribuição dos candidatos por categorias e o total de candidatos</p>
              <div align="center" style="display: inline_block">
@@ -72,7 +85,13 @@
              <div align="center" style="display: inline_block">
                 <img src="./images/vagas_por_categoria.png" alt="Gráficos" width="600" />
             </div>
-        </div>
+            <h3>Quantidade de calouros e de veteranos por categoria</h3>
+            <p>Este gráfico mostra a quantidade de calouros e de veteranos por categoria</p>
+             <div align="center" style="display: inline_block">
+                <img src="./images/calouros_vs_veteranos_por_categoria.png" alt="Gráficos" width="600" />
+            </div>
+            <h2>Observações:</h2>
+            <p>Este projeto foi desenvolvido para fins educacionais e não possui relação com a Apple Academy. Você pode gerar/criar novos gráficos ou modificar os existentes para atender às suas necessidades.</p>
     </div>
 </body>
 
